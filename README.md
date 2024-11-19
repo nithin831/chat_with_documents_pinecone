@@ -41,7 +41,7 @@ The flowchart depicts a system designed to handle both text input and file uploa
 
 4. **Mistral Embeddings**: These chunks are processed using the Mistral language model to generate embeddings (numerical representations of text).
 
-5. **Faiss Vector DB**: The embeddings are stored in the Faiss vector database for high-speed similarity search.
+5. **Pinecone Vector DB**: The embeddings are stored in the Pinecone vector database for high-speed similarity search.
 
 6. **User Input**: The user asks the question related to the uploaded file.
 
@@ -68,7 +68,7 @@ The flowchart depicts a system designed to handle both text input and file uploa
 
 - **Backend**: Django (Python)
 - **Frontend**: Bootstrap (HTML, CSS, JavaScript)
-- **Vector Store**: FAISS
+- **Vector Store**: Pinecone
 - **LLM Model**: Mistral
 
 ## Installation
